@@ -4,7 +4,7 @@ def CheckPassword():
     number = "no number"
     uppercase = "no uppercase"
     lowercase = "no lowercase"
-    if length_password == 8:
+    if length_password >= 8:
         for i in password:
             if i.isdigit():
                 number = "number found"
