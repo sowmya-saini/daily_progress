@@ -3,6 +3,8 @@ def primecheck(number):
     for i in range(1, number+1):
         if number % i == 0:
             count += 1
+        if count == 3:
+            break
        
     if count == 2:
         return True
