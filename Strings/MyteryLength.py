@@ -6,3 +6,9 @@ def removeMysteryLength(string_input, length):
         i+=1
     return string_res
 print(removeMysteryLength("sainiSowmya25", 10))
+
+#method2
+
+def removeMysteryLength(string_input, length):
+    return string_input[:length]
+print(removeMysteryLength("sainiSowmya25", 10))
