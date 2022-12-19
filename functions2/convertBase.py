@@ -28,7 +28,7 @@ def baseten_to_desired_base(num, base2):
     while(num >= base2):
         rem = num % base2
         if rem >= 15:
-            required += chr(87 + rem)
+            required += chr(55 + rem)
         else:
             # rem1= str(rem)
             required += str(rem)
@@ -51,4 +51,4 @@ def anybase_converter(number, base1, base2):
     else:
         return "Enter valid bases"
 
-print(anybase_converter(10011, 2, 16))
+print(anybase_converter(22, 4, 2))
